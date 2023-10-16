@@ -10,10 +10,6 @@ const scores = [
 ];
 
 
-for (let i = 0; i < scores.length; i++) {
-    console.log(scores[i].score)
-}
-
 
 // Verwachtte uitkomsten:
 // 83
@@ -38,24 +34,6 @@ for (let i = 0; i < scores.length; i++) {
 // D
 // ==========================================
 
-console.log("-------")
-
-
-for (let i = 0; i < scores.length; i++) {
-    // console.log(scores[i].score)
-    if (scores[i].score < 60) {
-        console.log("F") }
-    else if (scores[i].score < 70) {
-        console.log("D") }
-    else if (scores[i].score < 80) {
-        console.log("C") }
-    else if (scores[i].score < 90) {
-        console.log("B") }
-    else if (scores[i].score < 100) {
-        console.log("A") }
-}
-
-console.log("-------")
 
 
 // ==========================================
@@ -72,21 +50,7 @@ console.log("-------")
 // ==========================================
 
 
-for (let i = 0; i < scores.length; i++) {
-    // console.log(scores[i].score)
-    if (scores[i].score < 60) {
-        scores[i].grade = "F"; }
-    else if (scores[i].score < 70) {
-        scores[i].grade = "D"; }
-    else if (scores[i].score < 80) {
-        scores[i].grade = "C"; }
-    else if (scores[i].score < 90) {
-        scores[i].grade = "B"; }
-    else {
-        scores[i].grade = "A"; }
-}
 
-console.log(scores)
 
 // ==========================================
 // Opdracht 2
@@ -111,18 +75,12 @@ const NOVIEmployees = [
 // ==========================================
 
 
-for (let i = 0; i < NOVIEmployees.length; i++) {
-    const emailaddress = NOVIEmployees[i].firstName + "." + NOVIEmployees[i].lastName + "@novi.nl";
-    NOVIEmployees[i].email = emailaddress.toLowerCase();
-}
 
 
 
 // Opdracht 2-BONUS
 // Lukt het je om ervoor te zorgen dat alle e-mailadressen in lowercase letters komen te staan? Dit heb je nog niet geleerd, maar google is your best friend...
 // ==========================================
-
-console.log(NOVIEmployees);
 
 
 // ==========================================
